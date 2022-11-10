@@ -30,3 +30,8 @@ Tham khảo linh :
 - Chuyên sâu HTML :
   https://wiki.matbao.net/html-la-gi-nen-tang-lap-trinh-web-cho-nguoi-moi-bat-dau/
 - Tham khảo chi tiết [tại đây] (https://wiki.matbao.net/html-la-gi-nen-tang-lap-trinh-web-cho-nguoi-moi-bat-dau/)
+  > lorem
+
+### hình minh họa
+
+![ảnh sinh nhật](.image.jpg)
