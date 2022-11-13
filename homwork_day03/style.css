@@ -65,7 +65,6 @@ a {
 }
 
 .content {
-    height: 474px;
     color: #474747;
     background-color: #fff;
     display: flex;
@@ -82,23 +81,23 @@ a {
 }
 
 .header {
-    height: 195px;
-    width: 630px;
-    padding: 30px 0px 0px 49px;
+    width:100%;
+    margin: 20px 0px 0px 49px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    line-height: 60px;
 }
 
 .teacher {
     font-size: 29px;
 }
-
 .information {
-    height: 250px;
+    width:100%;
+    margin: 20px 0px 0px 49px;
     font-size: 29px;
-    padding: 0px 136px 0px 49px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    line-height: 50px;
 }
