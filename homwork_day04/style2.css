@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #ffecd0;
+    font-size: 20px;
+    padding: 5px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner{
+    max-width: 50%;
+}
+.button-5{
+    display: flex;
+    flex-direction: row;
+}
+.Back-home button{
+    background-color: green;
+    color:#fff;
+    border: 1px solid green;
+    padding: 10px;
+    margin: 10px 0px ;
+    border-radius: 4px ;
+}
+.content-container{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 200px;
+    justify-content: center;
+}
+.content-container-5{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 200px ;
+    justify-content: center;
+    align-items: center;
+}
+.content .detail{
+    max-width: 50%;
+    color: #fff;
+    line-height: 40px;
+}
+.content .detail-5{
+    max-width: 100%;
+    color: #fff;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content h1{
+    font-size: 80px;
+    line-height: 100px;
+    margin: 80px 0px 20px 0px;
+}
+.content h2{
+    font-size: 120px;
+    margin: 60px 0px 100px 0px;
+}
+.content h3{
+    font-size: 80px;
+    margin: 60px 0px 100px 0px;
+}
+.content ul{
+    font-size: 18px;
+    margin: 10px 60px 100px 60px;
+}
+.contact-5 button{
+    background-color: #ffca25;
+    border: 1px solid #ffca25;
+    padding:10px 40px;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+.more button{
+    background-color: #3671a1;
+    border: 1px solid #fff;
+    color: #fff;
+    padding:10px 20px ;
+    border-radius: 5px;
+}
+.header-menu-selection-5{
+    max-width: 100%;
+    background-image: url(../homwork_day04/image/course/course5-banner.png);
+}
+.header-menu-selection-7{
+    max-width: 100%;
+    background-image: url(../homwork_day04/image/course/course7background.jpg);
+}
+.header-menu-selection-8{
+    max-width: 100%;
+    background-image: url(../homwork_day04/image/course/course8-background-header.jpg);
+}
+.intro-content{
+    width:100%;
+    margin: 10px;
+}
+.intro-content h3{
+    font-size: 40px;
+    color: #f98e11;
+    text-align: center;
+    padding-top: 50px;
+   
+}
+.intro-content ul>li{
+    font-size: 20px;
+    line-height: 50px;;
+}
+.intro-image img{
+    max-width: 100%;
+    margin: 0px 30px;
+}
+.intro-detail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color:#fff;
+    text-align: center;
+}
+.intro-detail-1, .intro-detail-2 img, .intro-detail-3 img, .intro-detail-4{
+    max-width: 40%;
+    margin: 30px 0px;
+}
+.nav-bar-container{
+        width: 1200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+}
+.nav-bar-container-active{
+    background-color: #f98e11;
+}
+.nav-bar{
+    padding: 0px 20px; 
+    display: flex;
+    justify-content: center;
+   
+}
+.nav-menu{
+    padding:12px;
+    display: flex;
+    flex-direction: row;
+}
+.selection-container{
+    margin: 100px 200px ;
+    display: flex;
+  justify-content: space-between;
+    
+}
+.selection-container-5{
+    background-color: #3671a1;
+}

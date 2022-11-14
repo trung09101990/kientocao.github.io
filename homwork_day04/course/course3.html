@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Course</title>
-
+    <title>Spring boot - Web backend</title>
     <!-- Link favicon -->
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
@@ -26,204 +25,82 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <!-- File tự viết -->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../style.css" />
   </head>
-
   <body>
-    <div id="course">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="card">
-              <a href="./course/course1.html" target="_blank">
-                <div class="image">
-                  <img
-                    src="./image/course/Java cấu trúc dữ liệu - giải thuật.jpg"
-                    alt="Java cấu trúc dữ liệu - giải thuật.jpg"
-                  />
-                </div>
-
-                <div class="content">
-                  <h3>Java cấu trúc dữ liệu - giải thuật</h3>
-
-                  <div class="info">
-                    <p>Onlab</p>
-                    <p>
-                      <span>5<i class="fa-solid fa-star"></i></span>
-                    </p>
-                  </div>
-                </div>
+    <div class="container-course">
+      <div class="Back-home">
+        <a href="../index.html"> <button>Quay lại trang chủ</button> </a>
+      </div>
+      <div class="description">
+        <div class="frame">
+          <div class="title">Spring boot - Web backend</div>
+          <div class="support">
+            <div class="support-left">
+              <a
+                target="_blank"
+                href="https://techmaster.vn/author/brbgh4451coepbqoch60/huong-thanh"
+              >
+                <img src="../image/support/support.png" alt="ảnh lỗi" />
               </a>
+            </div>
+            <div class="support-right">
+              <span>
+                <b>Tư vấn viên</b>:
+                <a
+                  target="_blank"
+                  href="https://techmaster.vn/author/brbgh4451coepbqoch60/huong-thanh"
+                >Hương Thanh</a>
+              </span>
+              <span> <b>Email</b>: huong@techmaster.com </span>
+              <span> <b>Số điện thoại</b>: 0392416368 </span>
+              <button>
+                <i
+                  class="fas fa-phone-alt mr-2"
+                  style="margin: 0px 10px 0px 0px"
+                ></i
+                >Nhận tư vấn
+              </button>
             </div>
           </div>
-          <div class="col">
-            <div class="card" href="./course2.html" target="_blank">
-              <a href="./course/course2.html" target="_blank">
-                <div class="image">
-                  <img
-                    src="./image/course/Java căn bản.jpg"
-                    alt="Java căn bản.jpg"
-                  />
-                </div>
-
-                <div class="content">
-                  <h3>Java căn bản</h3>
-
-                  <div class="info">
-                    <p>Onlab</p>
-                    <p>
-                      5 <span><i class="fa-solid fa-star"></i></span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="./course/course3.html" target="_blank">
-                <div class="image">
-                  <img
-                    src="./image/course/Spring boot - Web backend.jpg"
-                    alt="ảnh khóa học spring"
-                  />
-                </div>
-
-                <div class="content">
-                  <h3>Spring Boot - Web backend</h3>
-
-                  <div class="info">
-                    <p>Onlab</p>
-                    <p>
-                      5 <span><i class="fa-solid fa-star"></i></span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="./course/course4.html" target="_blank">
-                <div class="image">
-                  <img
-                    src="./image/course/Lập trình Web - API - Microservice bằng Golang.jpg"
-                    alt="Lập trình Web - API - Microservice bằng Golang"
-                  />
-                </div>
-
-                <div class="content">
-                  <h3>Lập trình Web - API - Microservice bằng Golang</h3>
-
-                  <div class="info">
-                    <p>Onlab</p>
-                    <p>
-                      5 <span><i class="fa-solid fa-star"></i></span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="./course/course5.html" target="_blank">
-                <div class="image">
-                  <img
-                    src="./image/course/Lập trình lego robot inventor.jpg"
-                    alt="Lập trình lego robot inventor"
-                  />
-                </div>
-                <div class="content">
-                  <h3>Lập trình Lego Robot Inventor</h3>
-
-                  <div class="info">
-                    <p>Onlab</p>
-                    <p>
-                      5 <span><i class="fa-solid fa-star"></i></span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="./course/course6.html" target="_blank">
-                <div class="image">
-                  <img
-                    src="./image/course/Lập trình Devops.png"
-                    alt="Lập trình Devops"
-                  />
-                </div>
-
-                <div class="content">
-                  <h3>Lập trình Devops</h3>
-
-                  <div class="info">
-                    <p>Onlab</p>
-                    <p>
-                      5 <span><i class="fa-solid fa-star"></i></span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <a href="./course/course7.html" target="_blank">
-                <div class="image">
-                  <img
-                    src="./image/course/Py thon cho người mới bắt đầu.png"
-                    alt="Py thon cho người mới bắt đầu"
-                  />
-                </div>
-
-                <div class="content">
-                  <h3>Python cho người mới bắt đầu</h3>
-
-                  <div class="info">
-                    <p>Onlab</p>
-                    <p>
-                      5 <span><i class="fa-solid fa-star"></i></span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card" href="./course8.html" target="_blank">
-              <a href="./course/course8.html" target="_blank">
-                <div class="image">
-                  <img
-                    src="./image/course/Lập trình robot Torotic dành cho trẻ em.png"
-                    alt="Lập trình robot Torotic dành cho trẻ em"
-                  />
-                </div>
-
-                <div class="content">
-                  <h3>Lập trình robot Torotic dành cho trẻ em</h3>
-
-                  <div class="info">
-                    <p>Onlab</p>
-                    <p>
-                      5 <span><i class="fa-solid fa-star"></i></span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
+          <div class="detail">
+            <p>
+              Spring Boot là một module của Spring Framework giúp giảm tải các
+              cấu hình cho phép xây dựng nhanh chóng một ứng dụng độc lập.
+              Spring Boot cung cấp sẵn các Embedded HTTP servers (Tomcat, Jetty,
+              …), các plugins để phát triển và test một cách dễ dàng.
+            </p>
+            <p>
+              Khóa học sẽ giúp học viên tiếp cận với Spring Boot, nắm vững các
+              kiến thức cần thiết để xây dựng được các ứng dụng web theo mô hình
+              MVC. Học viên được hướng dẫn thực hành nhiều project mẫu trong
+              khóa học.
+            </p>
+            <p>
+              Tham khảo một link trang web tĩnh demo:
+              https://cody0203.github.io/normal-obo-stadium/
+            </p>
+            <h3>Yêu cầu</h3>
+            <ul>
+              <li>
+                Học viên tốt nghiệp cả 2 khoá Java core và Java cấu trúc dữ liệu
+                & Giải thuật với đầy đủ đồ án
+              </li>
+              <li>Hoặc làm Lập trình Java tối thiểu 1 năm kinh nghiệm</li>
+            </ul>
+            <p>
+              <b
+                >Chú ý: Đây cũng là học phần quan trọng nhất trong Lộ trình Web
+                Full-stack với Spring Boot cho người mới bắt đầu
+              </b>
+            </p>
           </div>
         </div>
       </div>
     </div>
-
     <div class="footer">
-      <div class="container-footer">
+      <div class="container">
         <div class="row-footer">
           <div class="col-footer">
             <div class="owner">

@@ -12,48 +12,92 @@ margin */
     padding: 0;
     box-sizing: border-box;
 }
+@media (max-width: 4000px){
+    .row {
+        grid-gap: 2rem 2rem;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 30px;
+    }
+    .row-footer{
+        grid-gap: 2rem 2rem;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 30px;
+    }
+}
 
+@media (max-width: 1288px){
+    .row {
+        grid-gap: 1.5rem 1.5rem;
+        grid-template-columns: repeat(3,1fr);
+        }
+}
+@media (max-width: 788px){
+    .row {
+        grid-gap: 1.5rem 1.5rem;
+        grid-template-columns: repeat(2,1fr);
+        }
+    .row-footer {
+        grid-gap: 1.5rem 1.5rem;
+        grid-template-columns: repeat(2,1fr);
+        }
+    }
+    
+a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: gray;
+}
+.support-right a{
+    color: black;
+}
 body {
     font-family: "Roboto", sans-serif;
     background-color: #ced9ea;
 }
-
-img {
-    max-width: 100%;
+.Back-home button{
+    background-color: green;
+    color:#fff;
+    border: 1px solid green;
+    padding: 10px;
+    margin: 10px 0px ;
+    border-radius: 4px ;
 }
 
 .container {
-    width: 1320px;
+    max-width: 1320px;
     margin: auto;
 }
 
-.row {
-    grid-gap: 2rem 2rem;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    padding: 30px;
+.container-course{
+    max-width: 1320px;
+    margin: 30px auto;
+}
+
+.container-footer{
+    max-width: 1320px;
+    margin: auto;
+    background-color: #30598c;
 }
 
 .col {
     flex-basis: 25%;
     background-color: #fff;
+    border-radius: 5px;
 }
-
 
 /* style card */
-
 .card {
     background-color: #fff;
-}
-
-.image {
-    height: 220px;
-}
-
-.image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    
 }
 
 .content {
@@ -84,48 +128,35 @@ img {
     color: #ffd600;
 }
 
-.info {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    width: 100%;
+.description{
+    background-color: white;
+    border: 1px solid rgb(170, 165, 165);
 }
 
-.footer {
-    margin-bottom: 70px;
-    color: #fff;
-    background-color: #30598c;
+.detail{
+    margin: 20px;
+    line-height: 30px;
 }
-
-h4 {
-    font-size: 18px;
+.detail ul li{
+    font-size: 16px;
+    margin: 5px 30px 10px 50px;
+}
+.detail h3{
+    font-size: 25px;
     font-weight: 500;
-    line-height: 21.6px;
-    margin: 8px;
+    margin: 20px;
 }
-
-div ul li {
+.owner ul li {
     font-size: 14px;
     font-weight: 400;
     line-height: 35px;
     list-style: none;
 }
 
-.owner {
-    margin-top: 50px;
-}
-
-a:link {
-    text-decoration: none;
+.footer {
+    margin-bottom: 70px;
     color: #fff;
-}
-
-a:visited {
-    color: #fff;
-}
-
-a:hover {
-    color: gray;
+    background-color: #30598c;
 }
 
 .facebook,
@@ -136,6 +167,49 @@ a:hover {
     line-height: 28px;
 }
 
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    margin: 8px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.image {
+    height: 220px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+li>i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.owner {
+    margin-top: 50px;
+}
+
+
+.social>div {
+    width: 80px;
+    margin: 10px;
+}
+
 .social {
     margin-top: 10px;
     display: flex;
@@ -143,7 +217,42 @@ a:hover {
     justify-content: center;
 }
 
-.social>div {
-    width: 80px;
+.support{
+    display: flex;
+    align-content: center;
+    padding: 10px 20px;
+    border: 1px solid rgb(170, 165, 165);
+}
+
+.support-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.support-left a img{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.support-right{
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+.support button{
+    background-color: blue;
+    color:#fff;
+    padding: 10px;
+    margin: 0px 100px 0px 0px;
+    border-radius: 5px;
+}
+
+.title{
+    padding: 10px;
 }
