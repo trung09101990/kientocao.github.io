@@ -1,3 +1,4 @@
+/* Style header */
 *{ 
     margin: 0;
     padding: 0;
@@ -8,7 +9,6 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   align-items: center;
 }
 body{
     font-family: 'roboto', sans-serif;
@@ -120,10 +120,10 @@ margin */
 /* Style footer */
 .container {
     width: 1320px;
-    margin: auto;
+    margin: 15px auto;
 }
 
-.row {
+.row-footer {
     display: flex;
     flex-wrap: wrap;
     padding: 15px 0px;
@@ -313,12 +313,13 @@ a:hover {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 50px 200px;
+    max-width: 85%;
+    margin: auto;
 }
 .detail-content h3, .intro-content h3{
     font-size: 50px;
     color: #007bff;
-    margin: 15px;
+    margin: 20px 0px
 }
 .detail-content  p, .intro-detail{
     font-size: 30px;
