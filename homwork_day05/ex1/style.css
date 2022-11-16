@@ -309,10 +309,11 @@ a:hover {
 }
 .intro-detail{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+    margin: 50px 200px;
 }
 .detail-content h3, .intro-content h3{
     font-size: 50px;
@@ -324,17 +325,17 @@ a:hover {
     color: #007bff;
 }
 .intro-detail .intro-text{
-    max-width: 30%;
+    max-width: 50%;
     text-align: left;
-    margin: 20px;
 }
 .intro-text ul li{
     font-size: 20px;
 }
 .intro-detail .intro-image img{
-    max-width: 50%;
-    margin: 20px;
+    max-width: 100%;
 }
+.intro-image{
+    max-width: 50%;}
 .intro-content ul li{
     font-size: 20px;
     color: #007bff;
