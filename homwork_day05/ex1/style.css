@@ -309,11 +309,11 @@ a:hover {
 }
 .intro-detail{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 85%;
+    max-width: 100%;
     margin: auto;
 }
 .detail-content h3, .intro-content h3{
@@ -326,7 +326,7 @@ a:hover {
     color: #007bff;
 }
 .intro-detail .intro-text{
-    max-width: 50%;
+    max-width: 40%;
     text-align: left;
 }
 .intro-text ul li{
@@ -336,7 +336,7 @@ a:hover {
     max-width: 100%;
 }
 .intro-image{
-    max-width: 50%;}
+    max-width: 40%;}
 .intro-content ul li{
     font-size: 20px;
     color: #007bff;
