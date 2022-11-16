@@ -311,7 +311,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 .detail-content h3, .intro-content h3{
@@ -331,9 +331,13 @@ a:hover {
 .intro-text ul li{
     font-size: 20px;
 }
-.intro-detail .intro-image{
-    max-width: 30%;
+.intro-detail .intro-image img{
+    max-width: 50%;
     margin: 20px;
+}
+.intro-content ul li{
+    font-size: 20px;
+    color: #007bff;
 }
 .content-container .button{
 display: flex;
