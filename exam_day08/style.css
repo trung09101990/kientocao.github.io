@@ -6,7 +6,7 @@
 body{
     font-family: 'roboto', sans-serif;
     max-width: 100%;
-    background-color: #f3e7d0;
+    background-color: #fdf5e5;
 }
 /* style header  */
 .logo img{
@@ -34,6 +34,7 @@ ul{
 .slidebar {
     display: flex;
     align-items: center;
+  
 }
 .menu>ul{
     display: flex;
@@ -81,7 +82,10 @@ ul{
     align-items: center;
 }
 .menu-item span{
-    margin-left: 5px;
+    margin-left: 5px;  
+}
+.menu ul a {
+    text-decoration: none;
 }
 .search {
     margin:0px 15px;
@@ -99,14 +103,15 @@ ul{
 
 /* style between  */
 .between {
-    height:1900px;
+    display: block;
+    height:1750px;
 }
 .container{
     position: relative;
     object-fit: contain;
     max-width: 100%;
-    width: auto;
-    height: auto;
+    /* width: auto;
+    height: auto; */
 }
 .intro-img .img {
     /* width: 100%; */
@@ -164,8 +169,8 @@ ul{
     color: #fff;
 }
 .box{
-    height: 5px;
-    width: 100px;
+    height: 3px;
+    width: 150px;
     background-color: #fff;
     z-index: 9;
 }
@@ -180,7 +185,7 @@ ul{
 /* style card */
 .topic {
     position: absolute;
-    top:1000px;
+    top:900px;
     left: 22%;
     max-width: 1024px;
 }
@@ -211,6 +216,7 @@ ul{
 
 .content {
     padding: 15px;
+    text-align: center;
 }
 
 .content h3 {
@@ -229,8 +235,10 @@ ul{
     color: #ffd600;
 }
 /* style-footer  */
-.footer{
-    /* position: relative; */
+.footer {
+    position: relative;
+    /* display: block; */
+    /* top: 100%; */
     background-color: #fff;
     width: 100%;
     padding: 10px;
@@ -244,3 +252,74 @@ ul{
 .footer-title span i {
     color: red;
 }
+/* style grammar  */
+.gram-content-container {
+    max-width: 1280px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 25%);
+    
+}
+ .gram-content-container h1{
+    padding: 20px;
+    color: tomato;
+}
+thead th {
+    text-align: center;
+    height: 37px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+tr {
+    height: 37px;
+}
+th,
+tr,
+td {
+    border: 1px solid black;
+    padding: 2px 4px 2px 5px;
+}
+table {
+    border: 1px solid black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+/* style từ vựng  */
+.vocabulary-content {
+    max-width: 1280px;
+    margin: 20px auto;
+}
+.vocabulary-content h1 {
+    text-align: center;
+    font-size: 40px;
+    color: tomato;
+}
+ /* style exam  */
+ .exam-content h1 {
+    max-width: 100%;
+    text-align: center;
+    margin: 20px auto;
+ }
+ .exam-content-container {
+    max-width: 1280px;
+    margin: 20px auto;
+    line-height: 40px;
+ }
+ .exam-content-container input {
+    margin: 8px;
+ }
+ .number {
+    border: 2px solid green;
+    padding: 8px;
+    border-radius: 20px;
+ }
+ .ans {
+    margin: 0px 67px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,0.2fr 1fr);
+ }
+ 
