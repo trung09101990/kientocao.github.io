@@ -113,9 +113,7 @@ ul{
     /* width: auto;
     height: auto; */
 }
-.intro-img .img {
-    /* width: 100%; */
-}
+
 .intro-item1, .intro-item2, .intro-item3 {
     position:absolute;
     top: 0;  
