@@ -246,7 +246,7 @@ ul{
 /* style-footer  */
 .footer {
     position: relative;
-    box-shadow: inset 0px 10px 10px 0px #ccc;
+    box-shadow: inset 0px -10px 10px 0px #ccc;
     background-color: #fff;
     width: 100%;
     padding: 10px;
@@ -276,6 +276,26 @@ ul{
  .gram-content-container h1{
     padding: 20px;
     color: tomato;
+}
+.content-tasbar {
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+.content-tasbar ul li {
+    position: relative  ;
+    display: flex;
+    flex-direction: column; 
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    background-color: tomato;
+    border: 1px solid gray ;
+    border-radius: 5px;
+    color: #fff;
+}
+.content-tasbar ul li:hover {
+    left: 20px;
 }
 thead th {
     text-align: center;
