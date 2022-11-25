@@ -6,17 +6,17 @@ public class homeWork {
         System.out.println("Xin chào " + name);
         System.out.println("Xin chào \"" + name + "\"");
     }
-    public static float sumTwoNumber (float a, float b ) {
+    public static double sumTwoNumber (double a, double b ) {
         return a+b;
     }
-    public static float square(float c) {
+    public static double square(double c) {
         return c*c;
     }
-    public static int century(float d) {
-        float centuRy = d/100;
+    public static double century(double d) {
+        double centuRy = d/100;
         return (int) Math.ceil(centuRy);
     }
-    public static float calBmi(float height, float weight) {
+    public static double calBmi(double height, double weight) {
         return weight/height;
     }
 }
