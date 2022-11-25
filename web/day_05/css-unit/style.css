@@ -1,0 +1,31 @@
+/* font-size default 16px */
+/* thay đổi giá trị mặc đinh thành 14px */
+:root {
+    font-size: 14px;
+    --color-text: #6666FF;/* màu color text  */
+    --color-heading: #955265; /*màu cho heading*/
+}
+.text{
+    font-size: 2rem;
+    color: var(--color-text); 
+}
+.parent{
+    font-size: 20px;
+}
+.child{
+    font-size: 2em;
+    color: var(--color-heading);
+}
+.box{
+    width: 50vw;  
+    height: 50vw;
+    background-color: blueviolet;
+}
+/* vw: theo chieu rong chieu cao man hinh */
+.box-child{
+    width: 80%;
+    height: 80%;
+}
+/* % theo kích thước của thẻ cha */
+/* một trang web sử dụng 3-5 màu */
+/* đặt biến cho một màu để không thay đổi nhiều back ground color*/

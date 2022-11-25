@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      th,
+      tr,
+      td {
+        border: 1px solid black;
+      }
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>FullName</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td rowspan="2">Kien</td>
+          <td>Nhân viên</td>
+          <td>100$</td>
+        </tr>
+        <tr>
+          <td rowspan="2">2</td>
+          <td>Giám đốc</td>
+          <td>200$</td>
+        </tr>
+
+        <tr>
+          <td>Nam</td>
+          <td>CEO</td>
+          <td>1000$</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>nhân</td>
+          <td>Culi</td>
+          <td>10000$</td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">No</th>
+          <th rowspan="2">Name</th>
+          <th>Address</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <th>City</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+    </table>
+    <br />
+    <table>
+      <thead>
+        <tr>
+          <th colspan="3">Danh sách ca sỹ</th>
+        </tr>
+        <tr>
+          <th>STT</th>
+          <th>Họ và tên</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">1</td>
+          <td rowspan="2">Quang Thọ</td>
+          <td>quangtho@gmail.com</td>
+        </tr>
+        <tr>
+          <td>quangtho@yahô.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

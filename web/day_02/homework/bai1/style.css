@@ -1,0 +1,44 @@
+            body {
+                background: white;
+            }
+            
+            table {
+                border: 1px solid black;
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                text-align: left;
+                width: 500px;
+                height: 495px;
+            }
+            
+            input {
+                border: 1px solid #a8a8a9;
+                padding: 5px 1px;
+            }
+            
+            textarea {
+                margin: 3px 0px -1px 0px;
+            }
+            
+            thead th {
+                text-align: center;
+                height: 37px;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            
+            tr {
+                height: 37px;
+            }
+            
+             ::placeholder {
+                font-size: 17px;
+                color: #a8a8a9;
+            }
+            
+            th,
+            tr,
+            td {
+                border: 1px solid black;
+                padding: 2px 4px 2px 5px;
+            }

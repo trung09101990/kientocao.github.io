@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'HelveticaNowDisplay-Regular';
+    src: url('./HelveticaNowDisplay-Regular/HelveticaNowDisplay-Regular.ttf');
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'HelveticaNowDisplay-Regular', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.card {
+    width: 791px;
+    padding: 21px 18px;
+    background-color: #e8eaec;
+}
+
+.calendar {
+    text-align: center;
+    font-weight: normal;
+}
+
+.year {
+    background-color: #ef5321;
+    color: #fff;
+    font-size: 30px;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ef5321;
+    border-top-left-radius: 6px;
+}
+
+.date {
+    background-color: #fe6d40;
+    color: #fff;
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fe6d40;
+    border-bottom-left-radius: 6px;
+}
+
+.day {
+    font-size: 72px;
+}
+
+.month {
+    font-size: 30px;
+}
+
+.content {
+    height: 474px;
+    color: #474747;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #fff;
+    box-shadow: 0px 4px 4px 4px #d4d5d8;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.title1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header {
+    height: 195px;
+    width: 630px;
+    padding: 30px 0px 0px 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.teacher {
+    font-size: 29px;
+}
+
+.information {
+    height: 250px;
+    font-size: 29px;
+    padding: 0px 136px 0px 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
