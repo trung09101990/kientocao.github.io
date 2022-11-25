@@ -12,7 +12,7 @@ public class homeWork {
     public static double square(double c) {
         return c*c;
     }
-    public static double century(double d) {
+    public static int century(double d) {
         double centuRy = d/100;
         return (int) Math.ceil(centuRy);
     }
