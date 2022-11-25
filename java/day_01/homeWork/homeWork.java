@@ -17,6 +17,6 @@ public class homeWork {
         return (int) Math.ceil(centuRy);
     }
     public static double calBmi(double height, double weight) {
-        return weight/height;
+        return weight/(height*height);
     }
 }
