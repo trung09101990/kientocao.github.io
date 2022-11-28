@@ -1,9 +1,14 @@
 public class homeWork {
     public static void main(String[] args) {
-        String name;
-        name = "Kiên";
+
+    }
+    public static void getName1(String name){
         System.out.println("Xin chào các bạn.");
+    }
+    public static void getName2(String name){
         System.out.println("Xin chào " + name);
+    }
+    public static void getName3(String name){
         System.out.println("Xin chào \"" + name + "\"");
     }
     public static double sumTwoNumber (double a, double b ) {
